@@ -4,7 +4,7 @@ from streamlit import runtime
 import sys
 import requests 
 import json
-from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode, DataReturnMode
+from st_aggrid import AgGrid, GridOptionsBuilder
 import pandas as pd
 
 class Doctor:
